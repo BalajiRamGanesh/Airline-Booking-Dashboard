@@ -13,10 +13,11 @@
 - [Recommendations](#recommendations)
 
 ## Overview
-This project explores airline booking data to uncover patterns in booking trends, service preferences, and travel behaviour. By analysing booking completion rates, extra service selections, and travel timings, the project aims to identify opportunities to improve the booking process and enhance the overall passenger experience.
+This project explores airline booking data using Power BI to uncover trends in booking behaviour, service preferences, and travel patterns. By examining booking completion rates, extra service selections, and travel timings, it aims to identify opportunities to streamline the booking process and enhance the passenger experience.
 
 ## Problem statement
-Understanding customer booking behavior is crucial for optimizing airline increasing booking completion rates. Many bookings remain incomplete and certain days of the week experience lower booking rates. This project aims to address key business questions:
+The company aims to improve booking completion rates and service utilization by analyzing booking trends and customer preferences. Understanding these patterns will help identify areas for improvement. This project addresses key business questions:
+
 - What percentage of passengers have confirmed bookings?
 - What proportion of passengers opt for extra services?
 - Which regions contribute most significantly to the total bookings?
@@ -27,25 +28,25 @@ Understanding customer booking behavior is crucial for optimizing airline increa
 
 ## Dataset Description
 
- The dataset used in this project is available in [kaggle](https://www.kaggle.com/datasets/anandshaw2001/airlines-booking-csv) and also provided in this repository. This dataset contains 50,000 rows and 14 columns .
- 
+The dataset used in this project is publicly available on [kaggle](https://www.kaggle.com/datasets/anandshaw2001/airlines-booking-csv) and has also been included in this repository. It consists of 50,000 rows and 14 columns, capturing key booking details and passenger preferences. Below is the description of each column in the dataset:
 
-| Column| Description|
+
+| Column| Description|  
 |-------|-------------|
-|num_passengers | Number of passengers|
-|sales_channel | Platform used for booking |
-|trip_type | The type of trip booked(round trip, one way, circle trip) |
-|purchase_lead | The number of days between the booking date and the departure date|
-|length_of_stay |The number of days spent at destination|
-|flight_hour | The departure hour of the flight in 24hour format
-|flight_day | The departure day of the week |
-|route | The route of the flight from origin to destination
-|booking_origin | The country where booking is made|
-|wants_extra_baggage | Indicates if the passengers require extra baggage|
-|wants_preferred_seat | Indicates whether passengers are selecting prefered seats|
-|wants_in_flight_meals | Indicates if the passengers require flight meals|
-|flight_duration |The travel duration between origin and destination |
-|booking_complete | Indicates whether the bookings is completed or incomplete|
+|num_passengers | Number of passengers in a booking. |
+|sales_channel | Platform used for booking. |
+|trip_type | The type of trip booked. |
+|purchase_lead | The number of days between the booking date and the departure date. |
+|length_of_stay |The number of days spent at destination. |
+|flight_hour | The departure hour of the flight. |
+|flight_day | The departure day of the week. |
+|route | The route of the flight from origin to destination. |
+|booking_origin | The country where booking is made. |
+|wants_extra_baggage | Indicates if the passengers require extra baggage. |
+|wants_preferred_seat | Indicates whether passengers are selecting prefered seats. |
+|wants_in_flight_meals | Indicates if the passengers require flight meals. |
+|flight_duration |The travel duration between origin and destination. |
+|booking_complete | Indicates whether the bookings is completed or incomplete. |
 
 ## Process
 
