@@ -5,15 +5,11 @@
 ![Travel Trends Dashboard](https://github.com/BalajiRamGanesh/Airline-Booking-Dashboard/blob/main/Travel%20Trends%20Dashboard.png?raw=true)
 
 ## Table of Contents
-- [Overview](#overview)
 - [Problem Statement](#problem-statement)
 - [Dataset Description](#dataset-description)
 - [Process](#process)
 - [Insights](#insights)
 - [Recommendations](#recommendations)
-
-## Overview
-This project explores airline booking data using Power BI to uncover trends in booking behaviour, service preferences, and travel patterns. By examining booking completion rates, extra service selections, and travel timings, it aims to identify opportunities to streamline the booking process and enhance the passenger experience.
 
 ## Problem statement
 The company aims to improve booking completion rates and service utilization by analyzing booking trends and customer preferences. Understanding these patterns will help identify areas for improvement. This project addresses key business questions:
